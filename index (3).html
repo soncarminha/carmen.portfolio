@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Carmen Iglesias — Copywriter</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=DM+Sans&display=swap" rel="stylesheet">
+
+<style>
+:root {
+  --burdeos: #49111C;
+  --beige: #F2EDE4;
+  --negro: #0A0908;
+  --gris: #5E503F;
+  --linea: #A9927D;
+}
+
+* { margin:0; padding:0; box-sizing:border-box; }
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background: var(--beige);
+  color: var(--negro);
+}
+
+nav {
+  position: fixed;
+  width:100%;
+  top:0;
+  padding:1rem 2rem;
+  background: var(--negro);
+  display:flex;
+  justify-content:space-between;
+}
+
+.nav-links {
+  display:flex;
+  gap:1.5rem;
+  list-style:none;
+}
+
+.nav-links a {
+  color: var(--linea);
+  text-decoration:none;
+  font-size:0.8rem;
+  text-transform:uppercase;
+}
+
+.nav-links a:hover { color: var(--burdeos); }
+
+section { padding:6rem 2rem; }
+
+.hero {
+  height:100vh;
+  background: var(--negro);
+  color: var(--beige);
+  display:flex;
+  align-items:center;
+}
+
+.hero h1 {
+  font-family:'Playfair Display';
+  font-size:4rem;
+}
+
+.hero em { color: var(--burdeos); }
+
+.services { background: var(--burdeos); color: var(--beige); }
+.skills { background: var(--beige); }
+.portfolio { background: var(--negro); color: var(--beige); }
+.cv { background: var(--linea); }
+.perfil { background: var(--beige); }
+.contact { background: var(--negro); color: var(--beige); }
+
+h2 {
+  font-family:'Playfair Display';
+  margin-bottom:2rem;
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+  <strong style="color:white;">Carmen Iglesias</strong>
+  <ul class="nav-links">
+    <li><a href="#servicios">Servicios</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#portfolio">Portfolio</a></li>
+    <li><a href="#cv">CV</a></li>
+    <li><a href="#perfil">Perfil</a></li>
+    <li><a href="#contacto">Contacto</a></li>
+  </ul>
+</nav>
+
+<section class="hero">
+  <div>
+    <h1>Creative Copy <br><em>& Content</em></h1>
+    <p>Copywriter creativa y creadora de contenido.</p>
+  </div>
+</section>
+
+<section id="servicios" class="services">
+  <h2>Servicios</h2>
+  <p>Copywriting, content creation, social media y más.</p>
+</section>
+
+<section id="skills" class="skills">
+  <h2>Skills</h2>
+  <p>Concepto, estrategia, contenido y ejecución.</p>
+</section>
+
+<section id="portfolio" class="portfolio">
+  <h2>Portfolio</h2>
+  <p>Aquí van tus proyectos.</p>
+</section>
+
+<section id="cv" class="cv">
+  <h2>CV</h2>
+  <p>Experiencia y formación.</p>
+</section>
+
+<section id="perfil" class="perfil">
+  <h2>Perfil</h2>
+  <p>Quién eres y tu historia.</p>
+</section>
+
+<section id="contacto" class="contact">
+  <h2>Contacto</h2>
+  <p>carmeniglesias1999@gmail.com</p>
+</section>
+
+</body>
+</html>
